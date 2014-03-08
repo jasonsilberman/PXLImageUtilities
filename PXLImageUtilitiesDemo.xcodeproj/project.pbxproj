@@ -19,6 +19,7 @@
 		96F6C82B18CBB3EE0045C70C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96F6C81318CBB3ED0045C70C /* UIKit.framework */; };
 		96F6C83318CBB3EE0045C70C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 96F6C83118CBB3EE0045C70C /* InfoPlist.strings */; };
 		96F6C83518CBB3EE0045C70C /* PXLImageUtilitiesDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 96F6C83418CBB3EE0045C70C /* PXLImageUtilitiesDemoTests.m */; };
+		96F6C84118CBB4390045C70C /* UIImage+PXLUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 96F6C84018CBB4390045C70C /* UIImage+PXLUtilities.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,8 @@
 		96F6C83018CBB3EE0045C70C /* PXLImageUtilitiesDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PXLImageUtilitiesDemoTests-Info.plist"; sourceTree = "<group>"; };
 		96F6C83218CBB3EE0045C70C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		96F6C83418CBB3EE0045C70C /* PXLImageUtilitiesDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PXLImageUtilitiesDemoTests.m; sourceTree = "<group>"; };
+		96F6C83F18CBB4390045C70C /* UIImage+PXLUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+PXLUtilities.h"; sourceTree = "<group>"; };
+		96F6C84018CBB4390045C70C /* UIImage+PXLUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+PXLUtilities.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +80,7 @@
 		96F6C80318CBB3ED0045C70C = {
 			isa = PBXGroup;
 			children = (
+				96F6C83E18CBB4210045C70C /* PXLImagesUtilites */,
 				96F6C81518CBB3ED0045C70C /* PXLImageUtilitiesDemo */,
 				96F6C82E18CBB3EE0045C70C /* PXLImageUtilitiesDemoTests */,
 				96F6C80E18CBB3ED0045C70C /* Frameworks */,
@@ -142,6 +146,15 @@
 				96F6C83118CBB3EE0045C70C /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		96F6C83E18CBB4210045C70C /* PXLImagesUtilites */ = {
+			isa = PBXGroup;
+			children = (
+				96F6C83F18CBB4390045C70C /* UIImage+PXLUtilities.h */,
+				96F6C84018CBB4390045C70C /* UIImage+PXLUtilities.m */,
+			);
+			path = PXLImagesUtilites;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -240,6 +253,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				96F6C84118CBB4390045C70C /* UIImage+PXLUtilities.m in Sources */,
 				96F6C81C18CBB3ED0045C70C /* main.m in Sources */,
 				96F6C82018CBB3ED0045C70C /* PXLAppDelegate.m in Sources */,
 			);
@@ -442,6 +456,7 @@
 				96F6C83A18CBB3EE0045C70C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		96F6C83B18CBB3EE0045C70C /* Build configuration list for PBXNativeTarget "PXLImageUtilitiesDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -450,6 +465,7 @@
 				96F6C83D18CBB3EE0045C70C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
