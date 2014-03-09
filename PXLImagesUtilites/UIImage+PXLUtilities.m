@@ -47,13 +47,11 @@
 
 - (id)convertImageToBase64String {
 	NSString *base64String = [UIImagePNGRepresentation(self) base64EncodedStringWithOptions:0];
-    
     return base64String;
 }
 
 - (id)convertImageToBase64Data {
     NSData *base64Data = [UIImagePNGRepresentation(self) base64EncodedDataWithOptions:0];
-    
     return base64Data;
 }
 
