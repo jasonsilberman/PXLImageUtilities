@@ -7,6 +7,7 @@
 //
 
 #import "PXLDemoViewController.h"
+#import "UIImage+PXLUtilities.h"
 
 @interface PXLDemoViewController ()
 
@@ -28,9 +29,7 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
     
-    UIView *c = [[UIView alloc] initWithFrame:CGRectMake(0, 80, 40, 40)];
-    c.backgroundColor = [UIColor redColor];
-    [self.view addSubview:c];
+//    [UIImage imageFromScreenshotOfView:self.view];
 }
 
 - (void)didReceiveMemoryWarning

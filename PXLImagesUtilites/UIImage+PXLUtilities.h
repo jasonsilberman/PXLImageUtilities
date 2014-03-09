@@ -13,9 +13,11 @@
 + (UIImage *)maskedImageNamed:(NSString *)name color:(UIColor *)color;
 + (UIImage *)imageFromBase64String:(NSString *)base64String;
 + (UIImage *)imageFromBase64data:(NSData *)base64Data;
++ (UIImage *)imageFromScreenshotOfView:(UIView *)view;
 
 - (UIImage *)compressToQuality:(CGFloat)compressionQuality;
-- (NSData *)convertImageToBase64String;
-- (NSData *)convertImageToBase64Data;
+- (id)convertImageToBase64String;
+- (id)convertImageToBase64Data;
+- (UIImage *)fillWithColor:(UIColor *)fillColor;
 
 @end
