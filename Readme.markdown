@@ -9,7 +9,7 @@ Released under the [MIT license](LICENSE).
 ## Installation
 Simple add the files to your project.
 
-You can look through the [PXLImageUtilites.h](PXLImageUtilities/PXLImageUtilities.h) file for methods and documentation.
+You can look through the [PXLImageUtilites.h](PXLImagesUtilites/UIImage+PXLUtilities.h) file for methods and documentation.
 
 Have Fun.
 
