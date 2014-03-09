@@ -13,13 +13,13 @@
 		96F6C81A18CBB3ED0045C70C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 96F6C81818CBB3ED0045C70C /* InfoPlist.strings */; };
 		96F6C81C18CBB3ED0045C70C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 96F6C81B18CBB3ED0045C70C /* main.m */; };
 		96F6C82018CBB3ED0045C70C /* PXLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 96F6C81F18CBB3ED0045C70C /* PXLAppDelegate.m */; };
-		96F6C82218CBB3ED0045C70C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96F6C82118CBB3ED0045C70C /* Images.xcassets */; };
 		96F6C82918CBB3EE0045C70C /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96F6C82818CBB3EE0045C70C /* XCTest.framework */; };
 		96F6C82A18CBB3EE0045C70C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96F6C80F18CBB3ED0045C70C /* Foundation.framework */; };
 		96F6C82B18CBB3EE0045C70C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96F6C81318CBB3ED0045C70C /* UIKit.framework */; };
 		96F6C83318CBB3EE0045C70C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 96F6C83118CBB3EE0045C70C /* InfoPlist.strings */; };
 		96F6C83518CBB3EE0045C70C /* PXLImageUtilitiesDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 96F6C83418CBB3EE0045C70C /* PXLImageUtilitiesDemoTests.m */; };
-		96F6C84118CBB4390045C70C /* UIImage+PXLUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 96F6C84018CBB4390045C70C /* UIImage+PXLUtilities.m */; };
+		96F6C84418CBB60E0045C70C /* PXLDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 96F6C84318CBB60E0045C70C /* PXLDemoViewController.m */; };
+		96F6C84718CBEAA40045C70C /* UIImage+PXLUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 96F6C84618CBEAA40045C70C /* UIImage+PXLUtilities.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,14 +43,15 @@
 		96F6C81D18CBB3ED0045C70C /* PXLImageUtilitiesDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PXLImageUtilitiesDemo-Prefix.pch"; sourceTree = "<group>"; };
 		96F6C81E18CBB3ED0045C70C /* PXLAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PXLAppDelegate.h; sourceTree = "<group>"; };
 		96F6C81F18CBB3ED0045C70C /* PXLAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PXLAppDelegate.m; sourceTree = "<group>"; };
-		96F6C82118CBB3ED0045C70C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		96F6C82718CBB3EE0045C70C /* PXLImageUtilitiesDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PXLImageUtilitiesDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		96F6C82818CBB3EE0045C70C /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		96F6C83018CBB3EE0045C70C /* PXLImageUtilitiesDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PXLImageUtilitiesDemoTests-Info.plist"; sourceTree = "<group>"; };
 		96F6C83218CBB3EE0045C70C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		96F6C83418CBB3EE0045C70C /* PXLImageUtilitiesDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PXLImageUtilitiesDemoTests.m; sourceTree = "<group>"; };
-		96F6C83F18CBB4390045C70C /* UIImage+PXLUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+PXLUtilities.h"; sourceTree = "<group>"; };
-		96F6C84018CBB4390045C70C /* UIImage+PXLUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+PXLUtilities.m"; sourceTree = "<group>"; };
+		96F6C84218CBB60E0045C70C /* PXLDemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PXLDemoViewController.h; sourceTree = "<group>"; };
+		96F6C84318CBB60E0045C70C /* PXLDemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PXLDemoViewController.m; sourceTree = "<group>"; };
+		96F6C84518CBEAA40045C70C /* UIImage+PXLUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+PXLUtilities.h"; sourceTree = "<group>"; };
+		96F6C84618CBEAA40045C70C /* UIImage+PXLUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+PXLUtilities.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,7 +114,8 @@
 			children = (
 				96F6C81E18CBB3ED0045C70C /* PXLAppDelegate.h */,
 				96F6C81F18CBB3ED0045C70C /* PXLAppDelegate.m */,
-				96F6C82118CBB3ED0045C70C /* Images.xcassets */,
+				96F6C84218CBB60E0045C70C /* PXLDemoViewController.h */,
+				96F6C84318CBB60E0045C70C /* PXLDemoViewController.m */,
 				96F6C81618CBB3ED0045C70C /* Supporting Files */,
 			);
 			path = PXLImageUtilitiesDemo;
@@ -151,8 +153,8 @@
 		96F6C83E18CBB4210045C70C /* PXLImagesUtilites */ = {
 			isa = PBXGroup;
 			children = (
-				96F6C83F18CBB4390045C70C /* UIImage+PXLUtilities.h */,
-				96F6C84018CBB4390045C70C /* UIImage+PXLUtilities.m */,
+				96F6C84518CBEAA40045C70C /* UIImage+PXLUtilities.h */,
+				96F6C84618CBEAA40045C70C /* UIImage+PXLUtilities.m */,
 			);
 			path = PXLImagesUtilites;
 			sourceTree = "<group>";
@@ -234,7 +236,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				96F6C81A18CBB3ED0045C70C /* InfoPlist.strings in Resources */,
-				96F6C82218CBB3ED0045C70C /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,8 +254,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				96F6C84118CBB4390045C70C /* UIImage+PXLUtilities.m in Sources */,
 				96F6C81C18CBB3ED0045C70C /* main.m in Sources */,
+				96F6C84718CBEAA40045C70C /* UIImage+PXLUtilities.m in Sources */,
+				96F6C84418CBB60E0045C70C /* PXLDemoViewController.m in Sources */,
 				96F6C82018CBB3ED0045C70C /* PXLAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
