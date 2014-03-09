@@ -29,7 +29,14 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
     
-//    [UIImage imageFromScreenshotOfView:self.view];
+    UIView *rect1 = [[UIView alloc] initWithFrame:CGRectMake(0, 80, 50, 50)];
+    rect1.backgroundColor = [UIColor redColor];
+    [self.view addSubview:rect1];
+    
+    UIImage *screenshot = [UIImage imageFromScreenshotOfView:rect1];
+    UIImageView *imgView = [[UIImageView alloc] initWithFrame:CGRectMake(60, 80, 50, 50)];
+    imgView.image = [screenshot fillWithColor:[UIColor blueColor]];
+    [self.view addSubview:imgView];
 }
 
 - (void)didReceiveMemoryWarning

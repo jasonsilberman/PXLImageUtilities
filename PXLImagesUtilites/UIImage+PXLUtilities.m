@@ -36,6 +36,10 @@
 	return screenShot;
 }
 
++ (UIImage *)imageFromImage:(UIImage *)image filledWithColor:(UIColor *)color {
+    return [image fillWithColor:color];
+}
+
 - (UIImage *)compressToQuality:(CGFloat)compressionQuality {
 	NSData *imageData = UIImageJPEGRepresentation(self, compressionQuality);
 	return [[UIImage alloc] initWithData:imageData];
