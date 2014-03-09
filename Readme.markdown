@@ -12,3 +12,5 @@ Simple add the files to your project.
 You can look through the [PXLImageUtilites.h](PXLImageUtilities/PXLImageUtilities.h) file for methods and documentation.
 
 Have Fun.
+
+*If you would like to use CocoaPods, let me know!*
